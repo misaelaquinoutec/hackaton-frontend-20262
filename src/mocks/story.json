@@ -1,0 +1,321 @@
+{
+  "saga": {
+    "id": "sga_tf4yd1lc",
+    "order": 1,
+    "title": "La Saga del Faro Sin Luz",
+    "subtitle": "Una señal que solo brilla en noches sin luna",
+    "synopsis": "Los Piratas de la Medusa Azul siguen la luz de un faro imposible que promete revelar el camino hacia el siguiente Poneglyph.",
+    "stageCount": 6,
+    "totalDistanceNm": 3012,
+    "firstIsland": "Isla Volcán Dormido",
+    "lastIsland": "Isla Tambor de Hielo",
+    "palette": {
+      "background": "#1c1917",
+      "surface": "#292524",
+      "primary": "#f97316",
+      "accent": "#38bdf8",
+      "text": "#fafaf9"
+    },
+    "intro": "Nadie sabe quién encendió el Faro Sin Luz. Solo aparece cuando la luna se esconde, y quien lo sigue nunca vuelve por la misma ruta."
+  },
+  "map": {
+    "width": 1000,
+    "height": 500
+  },
+  "stages": [
+    {
+      "id": "stg_jit1k48k",
+      "order": 1,
+      "slug": "isla-volcan-dormido",
+      "title": "Zarpan los Piratas de la Medusa Azul",
+      "narrative": [
+        "Ramón Mizuno reúne a la tripulación en Isla Volcán Dormido. Con provisiones para dos semanas y un Log Pose recién calibrado, los Piratas de la Medusa Azul ponen proa hacia la primera noche sin luna.",
+        "Bitácora de Ramón Mizuno: 335 millas náuticas desde el inicio de la saga. La moral de la tripulación está en 74 %."
+      ],
+      "island": {
+        "id": "isl_fhkrnjsx",
+        "name": "Isla Volcán Dormido",
+        "x": 72,
+        "y": 50
+      },
+      "palette": {
+        "background": "#1c1917",
+        "surface": "#292524",
+        "primary": "#f97316",
+        "accent": "#38bdf8",
+        "text": "#fafaf9"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 335,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 74,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 76700000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 3,
+          "unit": "/10"
+        }
+      ]
+    },
+    {
+      "id": "stg_0jyvim76",
+      "order": 2,
+      "slug": "isla-colmena",
+      "title": "La niebla que habla",
+      "narrative": [
+        "Al llegar a Isla Colmena, una niebla espesa repite cada palabra que pronuncia la tripulación. Ramón Mizuno ordena navegar en silencio, guiados solo por el sonido de las olas.",
+        "Nota en el diario de a bordo: la tripulación llega con la moral en 86 % y la Marina vigila con un nivel de amenaza 2 de 10."
+      ],
+      "island": {
+        "id": "isl_swfmywl9",
+        "name": "Isla Colmena",
+        "x": 247,
+        "y": 112
+      },
+      "palette": {
+        "background": "#422006",
+        "surface": "#5c2e0b",
+        "primary": "#fcd34d",
+        "accent": "#93c5fd",
+        "text": "#fffbeb"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 1218,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 86,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 2330000000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 2,
+          "unit": "/10"
+        }
+      ]
+    },
+    {
+      "id": "stg_8lfbyrhy",
+      "order": 3,
+      "slug": "isla-bosque-gigante",
+      "title": "El mercado de mapas falsos",
+      "narrative": [
+        "En Isla Bosque Gigante venden mil mapas del faro y todos son falsos. Uno, sin embargo, tiene una marca de agua igual a la del Log Pose de los Piratas de la Medusa Azul.",
+        "Registro del navegante: 1,913 millas recorridas. Las recompensas en juego suman 74,100,000 berries y la amenaza de la Marina marca 1 de 10."
+      ],
+      "island": {
+        "id": "isl_q32lptkt",
+        "name": "Isla Bosque Gigante",
+        "x": 411,
+        "y": 294
+      },
+      "palette": {
+        "background": "#fdf2f8",
+        "surface": "#fce7f3",
+        "primary": "#9d174d",
+        "accent": "#047857",
+        "text": "#1f2937"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 1913,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 83,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 74100000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 1,
+          "unit": "/10"
+        }
+      ]
+    },
+    {
+      "id": "stg_79nrwvyq",
+      "order": 4,
+      "slug": "isla-cielo-bajo",
+      "title": "Duelo en la escollera",
+      "narrative": [
+        "\"Garra de Sal\" Begoña Iturbe espera en Isla Cielo Bajo con su propia tripulación: también busca el faro. El duelo en la escollera dura hasta que la marea sube y separa a ambos bandos.",
+        "Bitácora de Ramón Mizuno: 2,148 millas náuticas desde el inicio de la saga. La moral de la tripulación está en 79 %."
+      ],
+      "island": {
+        "id": "isl_22oecrxr",
+        "name": "Isla Cielo Bajo",
+        "x": 586,
+        "y": 297
+      },
+      "palette": {
+        "background": "#3b0a0a",
+        "surface": "#561313",
+        "primary": "#fca5a5",
+        "accent": "#fdba74",
+        "text": "#fff7ed"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 2148,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 79,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 348000000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 1,
+          "unit": "/10"
+        }
+      ]
+    },
+    {
+      "id": "stg_6vx7lz9z",
+      "order": 5,
+      "slug": "isla-espejismo",
+      "title": "La llama recuperada",
+      "narrative": [
+        "En la cima de Isla Espejismo, los Piratas de la Medusa Azul encuentran el faro apagado y una inscripción a sus pies. Al encender la llama, la piedra revela una ruta grabada en luz.",
+        "Registro del navegante: 2,454 millas recorridas. Las recompensas en juego suman 106,000,000 berries y la amenaza de la Marina marca 3 de 10."
+      ],
+      "island": {
+        "id": "isl_yecbnvmf",
+        "name": "Isla Espejismo",
+        "x": 745,
+        "y": 148
+      },
+      "palette": {
+        "background": "#ecfeff",
+        "surface": "#cffafe",
+        "primary": "#0e7490",
+        "accent": "#be123c",
+        "text": "#0f172a"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 2454,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 86,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 106000000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 3,
+          "unit": "/10"
+        }
+      ]
+    },
+    {
+      "id": "stg_jhojqvou",
+      "order": 6,
+      "slug": "isla-tambor-de-hielo",
+      "title": "Rumbo al siguiente Log Pose",
+      "narrative": [
+        "Con la ruta copiada en la bitácora, Ramón Mizuno despide Isla Tambor de Hielo. El faro se apaga detrás de ellos, esperando a la próxima tripulación que se atreva a seguirlo.",
+        "Bitácora de Ramón Mizuno: 3,012 millas náuticas desde el inicio de la saga. La moral de la tripulación está en 89 %."
+      ],
+      "island": {
+        "id": "isl_3uvlzey0",
+        "name": "Isla Tambor de Hielo",
+        "x": 911,
+        "y": 50
+      },
+      "palette": {
+        "background": "#0b1d3a",
+        "surface": "#13294f",
+        "primary": "#f4c430",
+        "accent": "#ff6b35",
+        "text": "#f8fafc"
+      },
+      "metrics": [
+        {
+          "key": "distanceNm",
+          "label": "Millas recorridas",
+          "value": 3012,
+          "unit": "mn"
+        },
+        {
+          "key": "crewMorale",
+          "label": "Moral de la tripulación",
+          "value": 89,
+          "unit": "%"
+        },
+        {
+          "key": "bountyPool",
+          "label": "Recompensas en juego",
+          "value": 1474000000,
+          "unit": "berries"
+        },
+        {
+          "key": "marineThreat",
+          "label": "Amenaza de la Marina",
+          "value": 2,
+          "unit": "/10"
+        }
+      ]
+    }
+  ]
+}

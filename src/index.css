@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #0b1d3a;
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.story-root {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.route-line {
+  transition: stroke-dashoffset 0.8s ease;
+}
+
+.ship {
+  transition: transform 0.8s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-root,
+  .route-line,
+  .ship {
+    transition: none;
+  }
+}

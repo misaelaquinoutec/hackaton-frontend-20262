@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sga_tf4yd1lc",
+    "order": 1,
+    "title": "La Saga del Faro Sin Luz",
+    "subtitle": "Una señal que solo brilla en noches sin luna",
+    "synopsis": "Los Piratas de la Medusa Azul siguen la luz de un faro imposible que promete revelar el camino hacia el siguiente Poneglyph.",
+    "stageCount": 6,
+    "totalDistanceNm": 3012,
+    "firstIsland": "Isla Volcán Dormido",
+    "lastIsland": "Isla Tambor de Hielo",
+    "palette": {
+      "background": "#1c1917",
+      "surface": "#292524",
+      "primary": "#f97316",
+      "accent": "#38bdf8",
+      "text": "#fafaf9"
+    }
+  },
+  {
+    "id": "sga_ag1gapig",
+    "order": 2,
+    "title": "La Saga del Festín de los Mil Puertos",
+    "subtitle": "Una competencia culinaria que decide el destino de un archipiélago",
+    "synopsis": "Los Piratas de la Marea Negra se inscriben en el festín más grande del Grand Line para salvar a un pueblo endeudado.",
+    "stageCount": 6,
+    "totalDistanceNm": 3294,
+    "firstIsland": "Isla Nevada del Sur",
+    "lastIsland": "Ciudad Acuática Lumbre",
+    "palette": {
+      "background": "#1e1b4b",
+      "surface": "#2e2a6b",
+      "primary": "#a78bfa",
+      "accent": "#34d399",
+      "text": "#eef2ff"
+    }
+  }
+]
