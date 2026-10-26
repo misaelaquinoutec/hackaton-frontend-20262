@@ -1,3 +1,5 @@
+import type { WantedSummary } from './wanted'
+
 export interface User {
   id: string
   name: string
@@ -28,20 +30,6 @@ export interface LogPose {
   grandLineUnlocked: boolean
   unlockedAt: string | null
   message: string
-}
-
-export interface WantedSummary {
-  id: string
-  name: string
-  epithet: string
-  bounty: number
-  status: 'AT_LARGE' | 'CAPTURED' | 'MISSING'
-  crew: { id: string; name: string }
-  role: string
-  devilFruit: { name: string; type: string } | null
-  threatLevel: number
-  lastSeenIsland: string
-  updatedAt: string
 }
 
 export interface DashboardSummary {

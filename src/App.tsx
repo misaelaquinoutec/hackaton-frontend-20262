@@ -5,6 +5,8 @@ import RequireAuth from './components/RequireAuth'
 const LoginPage = lazy(() => import('./pages/LoginPage'))
 const RegisterPage = lazy(() => import('./pages/RegisterPage'))
 const DashboardPage = lazy(() => import('./pages/DashboardPage'))
+const WantedListPage = lazy(() => import('./pages/WantedListPage'))
+const WantedDetailPage = lazy(() => import('./pages/WantedDetailPage'))
 const SagasPage = lazy(() => import('./pages/SagasPage'))
 const SagaStoryPage = lazy(() => import('./pages/SagaStoryPage'))
 
@@ -17,6 +19,8 @@ export default function App() {
         <Route element={<RequireAuth />}>
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/wanted" element={<WantedListPage />} />
+          <Route path="/wanted/:id" element={<WantedDetailPage />} />
           <Route path="/sagas" element={<SagasPage />} />
           <Route path="/sagas/:id" element={<SagaStoryPage />} />
         </Route>

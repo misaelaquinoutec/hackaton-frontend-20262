@@ -19,7 +19,7 @@ export default function SagaStoryPage() {
   const [state, retry] = useRequest((signal) => getSagaStory(id, signal), [id])
 
   if (state.status === 'loading') return <LoadingBlock label="Leyendo el Poneglyph…" />
-  if (state.status === 'error') return <ErrorBlock error={state.error} onRetry={retry} />
+  if (state.status === 'error') return <ErrorBlock error={state.error} onRetry={retry} notFound="No encontramos esta saga" />
   return <Story key={id} story={state.data} />
 }
 

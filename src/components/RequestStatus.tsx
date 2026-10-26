@@ -8,18 +8,26 @@ export function LoadingBlock({ label }: { label: string }) {
   )
 }
 
-export function ErrorBlock({ error, onRetry }: { error: ApiError; onRetry: () => void }) {
+export function ErrorBlock({
+  error,
+  onRetry,
+  notFound = 'No encontramos este recurso',
+}: {
+  error: ApiError
+  onRetry: () => void
+  notFound?: string
+}) {
   const locked = error.code === 'LOG_POSE_REQUIRED'
-  const notFound = error.status === 404
+  const isNotFound = error.status === 404
   return (
     <div role="alert" className="mx-auto flex min-h-[40vh] max-w-md flex-col items-center justify-center gap-4 p-6 text-center">
       <h2 className="text-xl font-semibold">
-        {locked ? 'El Grand Line sigue cerrado' : notFound ? 'No encontramos esta saga' : 'No se pudo cargar'}
+        {locked ? 'El Grand Line sigue cerrado' : isNotFound ? notFound : 'No se pudo cargar'}
       </h2>
       <p className="text-slate-300">
         {locked ? 'Necesitan el Log Pose: pidan la inspección en Reverse Mountain.' : error.message}
       </p>
-      {!locked && !notFound && (
+      {!locked && !isNotFound && (
         <button
           type="button"
           onClick={onRetry}
