@@ -24,8 +24,14 @@ export default function SagasPage() {
                 <li key={s.id}>
                   <Link
                     to={`/sagas/${s.id}`}
+                    viewTransition
                     className="flex h-full flex-col gap-2 rounded-xl border-2 p-5 transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2"
-                    style={{ background: s.palette.background, color: s.palette.text, borderColor: s.palette.primary }}
+                    style={{
+                      background: s.palette.background,
+                      color: s.palette.text,
+                      borderColor: s.palette.primary,
+                      viewTransitionName: `saga-${s.id}`,
+                    }}
                   >
                     <span className="text-sm font-medium" style={{ color: s.palette.primary }}>
                       Saga {s.order}
