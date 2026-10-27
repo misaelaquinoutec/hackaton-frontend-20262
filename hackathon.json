@@ -1,0 +1,7 @@
+{
+  "teamCode": "TEAM-XXX",
+  "members": [
+    { "name": "Enzo Calderon", "code": "CODIGO-ENZO" },
+    { "name": "Misael Aquino", "code": "CODIGO-MISAEL" }
+  ]
+}

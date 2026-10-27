@@ -396,3 +396,26 @@ No entregar backend, dumps, seeds ni credenciales (no suban la contraseña de la
 - React Router: https://reactrouter.com/
 - View Transition API: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
 - Scroll-driven animations: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
+
+---
+
+## Equipo
+
+**Código del equipo:** `TEAM-XXX`
+
+| Integrante | Código |
+|:-----------|:-------|
+| Enzo Calderon | CODIGO-ENZO |
+| Misael Aquino | CODIGO-MISAEL |
+
+## Cómo ejecutar el proyecto
+
+Requiere Node 24 LTS y npm.
+
+```bash
+npm install
+cp .env.example .env.local   # VITE_API_BASE_URL=https://logpose-api-jg7f.onrender.com/api/v1
+npm run dev                  # servidor de desarrollo
+npm run build                # tsc -b && vite build
+npm run preview              # sirve el build
+```
