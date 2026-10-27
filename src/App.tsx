@@ -7,7 +7,9 @@ const RegisterPage = lazy(() => import('./pages/RegisterPage'))
 const DashboardPage = lazy(() => import('./pages/DashboardPage'))
 const WantedListPage = lazy(() => import('./pages/WantedListPage'))
 const WantedDetailPage = lazy(() => import('./pages/WantedDetailPage'))
-const SagasPage = lazy(() => import('./pages/SagasPage'))
+const NewsFeedPage = lazy(() => import('./pages/NewsFeedPage'))
+const NewsDetailPage = lazy(() => import('./pages/NewsDetailPage'))
+const SagasPage =lazy(() => import('./pages/SagasPage'))
 const SagaStoryPage = lazy(() => import('./pages/SagaStoryPage'))
 
 export default function App() {
@@ -21,6 +23,8 @@ export default function App() {
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/wanted" element={<WantedListPage />} />
           <Route path="/wanted/:id" element={<WantedDetailPage />} />
+          <Route path="/news" element={<NewsFeedPage />} />
+          <Route path="/news/:id" element={<NewsDetailPage />} />
           <Route path="/sagas" element={<SagasPage />} />
           <Route path="/sagas/:id" element={<SagaStoryPage />} />
         </Route>
